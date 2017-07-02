@@ -1,0 +1,1 @@
+# gwt-spring-hibernate-framework
