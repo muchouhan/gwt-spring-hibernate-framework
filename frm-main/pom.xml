@@ -29,7 +29,7 @@
     <module>frm-dao</module>
     <module>frm-batch</module>
     <module>frm-utils</module>
-    <module>frm-constatnts</module>
+    <module>frm-constants</module>
     <module>frm-exception</module>
     <module>frm-report</module>
     <module>frm-security</module>
