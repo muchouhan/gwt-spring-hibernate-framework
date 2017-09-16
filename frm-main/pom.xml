@@ -30,6 +30,9 @@
 		<module>frm-exception</module>
 		<module>frm-report</module>
 		<module>frm-security</module>
+		<module>frm-notification</module>
+		<module>frm-activiti</module>
+		<module>frm-rules</module>
 	</modules>
 
 	<dependencies>
