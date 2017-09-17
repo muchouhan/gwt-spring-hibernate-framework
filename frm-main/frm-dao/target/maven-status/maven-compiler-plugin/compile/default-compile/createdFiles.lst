@@ -1,0 +1,11 @@
+com\mukund\frm\repository\Visit.class
+com\mukund\frm\repository\Specialty.class
+com\mukund\frm\repository\PetRepository.class
+com\mukund\frm\repository\PetType.class
+com\mukund\frm\repository\VetRepository.class
+com\mukund\frm\repository\Vets.class
+com\mukund\frm\repository\VisitRepository.class
+com\mukund\frm\repository\Owner.class
+com\mukund\frm\repository\OwnerRepository.class
+com\mukund\frm\repository\Pet.class
+com\mukund\frm\repository\Vet.class
