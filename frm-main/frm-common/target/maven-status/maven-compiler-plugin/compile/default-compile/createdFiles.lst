@@ -1,3 +1,5 @@
-com\mukund\frm\model\BaseEntity.class
-com\mukund\frm\model\Person.class
-com\mukund\frm\model\NamedEntity.class
+com\mukund\frm\server\domain\AddressImpl.class
+com\mukund\frm\server\domain\Person.class
+com\mukund\frm\server\domain\PersonImpl.class
+com\mukund\frm\server\domain\Address.class
+com\mukund\frm\server\domain\AddressType.class

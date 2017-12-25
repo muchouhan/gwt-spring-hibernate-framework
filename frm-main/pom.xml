@@ -5,7 +5,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.mukund</groupId>
+	<groupId>com.mukund.frm</groupId>
 	<artifactId>frm-main</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
@@ -15,7 +15,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.4.RELEASE</version>
+		<version>1.4.3.RELEASE</version>
 	</parent>
 
 	<modules>
@@ -49,7 +49,6 @@
 		<thymeleaf.version>3.0.6.RELEASE</thymeleaf.version>
 
 		<cobertura.version>2.7</cobertura.version>
-		
 		<activiti.version>5.19.0.2</activiti.version>
 
 	</properties>
@@ -139,6 +138,6 @@
 		</dependency>
 	</dependencies>
 
-	
+
 
 </project>

@@ -10,7 +10,7 @@
 	<url>http://www.springframework.org/spring-batch/archetypes/simple-cli-archetype</url>
 
 	<parent>
-		<groupId>com.mukund</groupId>
+		<groupId>com.mukund.frm</groupId>
 		<artifactId>frm-main</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
