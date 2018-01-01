@@ -1,0 +1,3 @@
+# Module demogwt
+# RPC service class, partial path of RPC policy file
+com.google.gwt.logging.shared.RemoteLoggingService, A59C3140897DA887E0026B947147ED4D.gwt.rpc
