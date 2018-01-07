@@ -21,7 +21,7 @@
 	<modules>
 		<module>frm-web</module>
 		<module>frm-service</module>
-		<module>frm-common</module>
+		<module>frm-model</module>
 		<module>frm-dao</module>
 		<module>frm-batch</module>
 		<module>frm-utils</module>

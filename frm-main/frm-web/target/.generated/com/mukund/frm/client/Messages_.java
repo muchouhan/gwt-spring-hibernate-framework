@@ -38,6 +38,26 @@ public class Messages_ implements com.mukund.frm.client.Messages {
     return "Loading...";
   }
   
+  public java.lang.String login_clear() {
+    return "Clear";
+  }
+  
+  public java.lang.String login_forget() {
+    return "Forget Password";
+  }
+  
+  public java.lang.String login_password() {
+    return "Password";
+  }
+  
+  public java.lang.String login_submit() {
+    return "Submit";
+  }
+  
+  public java.lang.String login_username() {
+    return "User Name";
+  }
+  
   public java.lang.String menu_text_1() {
     return "Menu One";
   }

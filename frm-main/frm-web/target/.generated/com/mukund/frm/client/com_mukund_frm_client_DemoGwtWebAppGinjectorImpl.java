@@ -14,10 +14,6 @@ public class com_mukund_frm_client_DemoGwtWebAppGinjectorImpl implements com.muk
     return fieldcom_mukund_frm_client_DemoGwtWebAppGinjector_DemoGwtWebAppGinjectorGinjector.getFragment_com_google_gwt_event_shared().get_Key$type$com$google$gwt$event$shared$SimpleEventBus$_annotation$$none$$();
   }
   
-  public com.mukund.frm.client.view.LoginPage getLoginPage() {
-    return fieldcom_mukund_frm_client_DemoGwtWebAppGinjector_DemoGwtWebAppGinjectorGinjector.getFragment_com_mukund_frm_client_view().get_Key$type$com$mukund$frm$client$view$LoginPage$_annotation$$none$$();
-  }
-  
   public com.mukund.frm.client.view.MainPanelView getMainPanelView() {
     return fieldcom_mukund_frm_client_DemoGwtWebAppGinjector_DemoGwtWebAppGinjectorGinjector.getFragment_com_mukund_frm_client_view().get_Key$type$com$mukund$frm$client$view$MainPanelView$_annotation$$none$$();
   }
@@ -30,8 +26,8 @@ public class com_mukund_frm_client_DemoGwtWebAppGinjectorImpl implements com.muk
     return fieldcom_mukund_frm_client_DemoGwtWebAppGinjector_DemoGwtWebAppGinjectorGinjector.getFragment_com_mukund_frm_client_view().get_Key$type$com$mukund$frm$client$view$PersonPanelView$_annotation$$none$$();
   }
   
-  public com.mukund.frm.client.ServicePreparator getServicePreparator() {
-    return fieldcom_mukund_frm_client_DemoGwtWebAppGinjector_DemoGwtWebAppGinjectorGinjector.getFragment_com_mukund_frm_client().get_Key$type$com$mukund$frm$client$ServicePreparator$_annotation$$none$$();
+  public com.mukund.frm.client.common.ServicePreparator getServicePreparator() {
+    return fieldcom_mukund_frm_client_DemoGwtWebAppGinjector_DemoGwtWebAppGinjectorGinjector.getFragment_com_mukund_frm_client_common().get_Key$type$com$mukund$frm$client$common$ServicePreparator$_annotation$$none$$();
   }
   
 }

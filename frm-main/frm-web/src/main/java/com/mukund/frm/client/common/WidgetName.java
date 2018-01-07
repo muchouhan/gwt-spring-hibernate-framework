@@ -19,5 +19,5 @@
 package com.mukund.frm.client.common;
 
 public enum WidgetName {
-	PERSONLIST
+	PERSONLIST,NEWPANEL
 }

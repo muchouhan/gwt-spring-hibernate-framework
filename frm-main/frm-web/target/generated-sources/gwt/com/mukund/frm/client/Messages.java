@@ -88,6 +88,51 @@ public interface Messages extends com.google.gwt.i18n.client.Messages {
   String loadingMessage_message();
 
   /**
+   * Translated "Clear".
+   * 
+   * @return translated "Clear"
+   */
+  @DefaultMessage("Clear")
+  @Key("login.clear")
+  String login_clear();
+
+  /**
+   * Translated "Forget Password".
+   * 
+   * @return translated "Forget Password"
+   */
+  @DefaultMessage("Forget Password")
+  @Key("login.forget")
+  String login_forget();
+
+  /**
+   * Translated "Password".
+   * 
+   * @return translated "Password"
+   */
+  @DefaultMessage("Password")
+  @Key("login.password")
+  String login_password();
+
+  /**
+   * Translated "Submit".
+   * 
+   * @return translated "Submit"
+   */
+  @DefaultMessage("Submit")
+  @Key("login.submit")
+  String login_submit();
+
+  /**
+   * Translated "User Name".
+   * 
+   * @return translated "User Name"
+   */
+  @DefaultMessage("User Name")
+  @Key("login.username")
+  String login_username();
+
+  /**
    * Translated "Menu One".
    * 
    * @return translated "Menu One"

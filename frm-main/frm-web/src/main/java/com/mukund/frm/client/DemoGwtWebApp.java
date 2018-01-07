@@ -37,7 +37,10 @@ import com.google.gwt.event.logical.shared.ValueChangeHandler;
 import com.google.gwt.i18n.client.LocaleInfo;
 import com.google.gwt.user.client.History;
 import com.google.gwt.user.client.ui.RootPanel;
+import com.mukund.frm.client.common.ServicePreparator;
 import com.mukund.frm.client.common.WidgetName;
+import com.mukund.frm.client.view.LoginPage;
+import com.mukund.frm.client.view.LoginView;
 import com.mukund.frm.client.view.MainPanelView;
 
 public class DemoGwtWebApp implements EntryPoint {
@@ -152,14 +155,19 @@ public class DemoGwtWebApp implements EntryPoint {
 		logger.info("Create Views begins...");
 
 		MainPanelView mainPanelView = injector.getMainPanelView();
+		LoginView login = new LoginView();
+		LoginPage loginPage = new LoginPage();
 		mainPanelView.setContentAreaVisible(false);
 
 		mainPanelView.addWidget(WidgetName.PERSONLIST, injector.getPersonPanelView());
-		
+
 		mainPanelView.setContentAreaVisible(true);
 		mainPanelView.updatePersonPanelView();
 		
-		 RootPanel.get().add(mainPanelView);
+		
+//		RootPanel.get().add(loginPage.asWidget());
+		RootPanel.get().add(login.asWidget());
+//		 RootPanel.get().add(mainPanelView);
 		logger.info("Create Views ends...");
 	}
 

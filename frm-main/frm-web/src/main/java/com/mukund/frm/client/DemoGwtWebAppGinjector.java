@@ -22,7 +22,7 @@ import com.google.gwt.event.shared.SimpleEventBus;
 import com.google.gwt.i18n.client.Messages;
 import com.google.gwt.inject.client.GinModules;
 import com.google.gwt.inject.client.Ginjector;
-import com.mukund.frm.client.view.LoginPage;
+import com.mukund.frm.client.common.ServicePreparator;
 import com.mukund.frm.client.view.MainPanelView;
 import com.mukund.frm.client.view.PersonPanelView;
 
@@ -35,8 +35,6 @@ public interface DemoGwtWebAppGinjector extends Ginjector {
 
 	Messages getMessages();
 
-	LoginPage getLoginPage();
-	
 	MainPanelView getMainPanelView();
 
 	PersonPanelView getPersonPanelView();

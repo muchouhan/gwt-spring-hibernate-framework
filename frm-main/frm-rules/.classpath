@@ -23,6 +23,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="/frm-common"/>
+	<classpathentry kind="src" path="/frm-model"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

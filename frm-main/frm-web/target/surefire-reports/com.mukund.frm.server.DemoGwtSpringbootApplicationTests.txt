@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.mukund.frm.server.DemoGwtSpringbootApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.917 sec - in com.mukund.frm.server.DemoGwtSpringbootApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.892 sec - in com.mukund.frm.server.DemoGwtSpringbootApplicationTests

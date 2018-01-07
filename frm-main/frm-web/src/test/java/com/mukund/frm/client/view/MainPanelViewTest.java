@@ -33,7 +33,9 @@ import org.mockito.Mock;
 import com.google.gwt.event.shared.EventBus;
 import com.google.gwtmockito.GwtMockitoTestRunner;
 import com.mukund.frm.client.common.ErrorFormatter;
+import com.mukund.frm.client.common.LoadingMessagePopupPanel;
 import com.mukund.frm.client.common.WidgetName;
+import com.mukund.frm.client.view.PersonPanelView;
 
 @RunWith(GwtMockitoTestRunner.class)
 public class MainPanelViewTest {

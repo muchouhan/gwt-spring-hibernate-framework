@@ -4,14 +4,6 @@ import com.google.gwt.core.client.GWT;
 import com.mukund.frm.client.com_mukund_frm_client_DemoGwtWebAppGinjector_DemoGwtWebAppGinjectorGinjector;
 
 public class com_mukund_frm_client_DemoGwtWebAppGinjector_DemoGwtWebAppGinjectorGinjector_fragment {
-  public void memberInject_Key$type$com$mukund$frm$client$view$LoadingMessagePopupPanel$_annotation$$none$$(com.mukund.frm.client.view.LoadingMessagePopupPanel injectee) {
-    
-  }
-  
-  public void memberInject_Key$type$com$mukund$frm$client$view$LoginPage$_annotation$$none$$(com.mukund.frm.client.view.LoginPage injectee) {
-    
-  }
-  
   public void memberInject_Key$type$com$mukund$frm$client$view$MainPanelView$_annotation$$none$$(com.mukund.frm.client.view.MainPanelView injectee) {
     
   }
@@ -26,48 +18,12 @@ public class com_mukund_frm_client_DemoGwtWebAppGinjector_DemoGwtWebAppGinjector
     
   }
   
-  private com.mukund.frm.client.view.LoadingMessagePopupPanel singleton_Key$type$com$mukund$frm$client$view$LoadingMessagePopupPanel$_annotation$$none$$ = null;
-  
-  public com.mukund.frm.client.view.LoadingMessagePopupPanel get_Key$type$com$mukund$frm$client$view$LoadingMessagePopupPanel$_annotation$$none$$() {
-    
-    if (singleton_Key$type$com$mukund$frm$client$view$LoadingMessagePopupPanel$_annotation$$none$$ == null) {
-    com.mukund.frm.client.view.LoadingMessagePopupPanel result = com$mukund$frm$client$view$LoadingMessagePopupPanel_com$mukund$frm$client$view$LoadingMessagePopupPanel_methodInjection(injector.getFragment_com_mukund_frm_client().get_Key$type$com$mukund$frm$client$Messages$_annotation$$none$$(), injector.getFragment_com_mukund_frm_client_common().get_Key$type$com$mukund$frm$client$common$Asset$_annotation$$none$$());
-    memberInject_Key$type$com$mukund$frm$client$view$LoadingMessagePopupPanel$_annotation$$none$$(result);
-    
-        singleton_Key$type$com$mukund$frm$client$view$LoadingMessagePopupPanel$_annotation$$none$$ = result;
-    }
-    return singleton_Key$type$com$mukund$frm$client$view$LoadingMessagePopupPanel$_annotation$$none$$;
-    
-  }
-  
-  public com.mukund.frm.client.view.LoadingMessagePopupPanel com$mukund$frm$client$view$LoadingMessagePopupPanel_com$mukund$frm$client$view$LoadingMessagePopupPanel_methodInjection(com.mukund.frm.client.Messages _0, com.mukund.frm.client.common.Asset _1) {
-    return new com.mukund.frm.client.view.LoadingMessagePopupPanel(_0, _1);
-  }
-  
-  private com.mukund.frm.client.view.LoginPage singleton_Key$type$com$mukund$frm$client$view$LoginPage$_annotation$$none$$ = null;
-  
-  public com.mukund.frm.client.view.LoginPage get_Key$type$com$mukund$frm$client$view$LoginPage$_annotation$$none$$() {
-    
-    if (singleton_Key$type$com$mukund$frm$client$view$LoginPage$_annotation$$none$$ == null) {
-    com.mukund.frm.client.view.LoginPage result = com$mukund$frm$client$view$LoginPage_com$mukund$frm$client$view$LoginPage_methodInjection(injector.getFragment_com_google_gwt_event_shared().get_Key$type$com$google$gwt$event$shared$EventBus$_annotation$$none$$(), injector.getFragment_com_mukund_frm_client_common().get_Key$type$com$mukund$frm$client$common$ErrorFormatter$_annotation$$none$$(), get_Key$type$com$mukund$frm$client$view$LoadingMessagePopupPanel$_annotation$$none$$());
-    memberInject_Key$type$com$mukund$frm$client$view$LoginPage$_annotation$$none$$(result);
-    
-        singleton_Key$type$com$mukund$frm$client$view$LoginPage$_annotation$$none$$ = result;
-    }
-    return singleton_Key$type$com$mukund$frm$client$view$LoginPage$_annotation$$none$$;
-    
-  }
-  
-  public com.mukund.frm.client.view.LoginPage com$mukund$frm$client$view$LoginPage_com$mukund$frm$client$view$LoginPage_methodInjection(com.google.gwt.event.shared.EventBus _0, com.mukund.frm.client.common.ErrorFormatter _1, com.mukund.frm.client.view.LoadingMessagePopupPanel _2) {
-    return new com.mukund.frm.client.view.LoginPage(_0, _1, _2);
-  }
-  
   private com.mukund.frm.client.view.MainPanelView singleton_Key$type$com$mukund$frm$client$view$MainPanelView$_annotation$$none$$ = null;
   
   public com.mukund.frm.client.view.MainPanelView get_Key$type$com$mukund$frm$client$view$MainPanelView$_annotation$$none$$() {
     
     if (singleton_Key$type$com$mukund$frm$client$view$MainPanelView$_annotation$$none$$ == null) {
-    com.mukund.frm.client.view.MainPanelView result = com$mukund$frm$client$view$MainPanelView_com$mukund$frm$client$view$MainPanelView_methodInjection(injector.getFragment_com_google_gwt_event_shared().get_Key$type$com$google$gwt$event$shared$EventBus$_annotation$$none$$(), injector.getFragment_com_mukund_frm_client_common().get_Key$type$com$mukund$frm$client$common$ErrorFormatter$_annotation$$none$$(), get_Key$type$com$mukund$frm$client$view$LoadingMessagePopupPanel$_annotation$$none$$());
+    com.mukund.frm.client.view.MainPanelView result = com$mukund$frm$client$view$MainPanelView_com$mukund$frm$client$view$MainPanelView_methodInjection(injector.getFragment_com_google_gwt_event_shared().get_Key$type$com$google$gwt$event$shared$EventBus$_annotation$$none$$(), injector.getFragment_com_mukund_frm_client_common().get_Key$type$com$mukund$frm$client$common$ErrorFormatter$_annotation$$none$$(), injector.getFragment_com_mukund_frm_client_common().get_Key$type$com$mukund$frm$client$common$LoadingMessagePopupPanel$_annotation$$none$$());
     memberInject_Key$type$com$mukund$frm$client$view$MainPanelView$_annotation$$none$$(result);
     
         singleton_Key$type$com$mukund$frm$client$view$MainPanelView$_annotation$$none$$ = result;
@@ -76,7 +32,7 @@ public class com_mukund_frm_client_DemoGwtWebAppGinjector_DemoGwtWebAppGinjector
     
   }
   
-  public com.mukund.frm.client.view.MainPanelView com$mukund$frm$client$view$MainPanelView_com$mukund$frm$client$view$MainPanelView_methodInjection(com.google.gwt.event.shared.EventBus _0, com.mukund.frm.client.common.ErrorFormatter _1, com.mukund.frm.client.view.LoadingMessagePopupPanel _2) {
+  public com.mukund.frm.client.view.MainPanelView com$mukund$frm$client$view$MainPanelView_com$mukund$frm$client$view$MainPanelView_methodInjection(com.google.gwt.event.shared.EventBus _0, com.mukund.frm.client.common.ErrorFormatter _1, com.mukund.frm.client.common.LoadingMessagePopupPanel _2) {
     return new com.mukund.frm.client.view.MainPanelView(_0, _1, _2);
   }
   
@@ -85,7 +41,7 @@ public class com_mukund_frm_client_DemoGwtWebAppGinjector_DemoGwtWebAppGinjector
   public com.mukund.frm.client.view.PersonPanelView get_Key$type$com$mukund$frm$client$view$PersonPanelView$_annotation$$none$$() {
     
     if (singleton_Key$type$com$mukund$frm$client$view$PersonPanelView$_annotation$$none$$ == null) {
-    com.mukund.frm.client.view.PersonPanelView result = com$mukund$frm$client$view$PersonPanelView_com$mukund$frm$client$view$PersonPanelView_methodInjection(injector.getFragment_com_google_gwt_event_shared().get_Key$type$com$google$gwt$event$shared$EventBus$_annotation$$none$$(), injector.getFragment_com_mukund_frm_client_common().get_Key$type$com$mukund$frm$client$common$ErrorFormatter$_annotation$$none$$(), get_Key$type$com$mukund$frm$client$view$LoadingMessagePopupPanel$_annotation$$none$$(), injector.getFragment_com_mukund_frm_client_domain().get_Key$type$com$mukund$frm$client$domain$PersonClient$_annotation$$none$$());
+    com.mukund.frm.client.view.PersonPanelView result = com$mukund$frm$client$view$PersonPanelView_com$mukund$frm$client$view$PersonPanelView_methodInjection(injector.getFragment_com_google_gwt_event_shared().get_Key$type$com$google$gwt$event$shared$EventBus$_annotation$$none$$(), injector.getFragment_com_mukund_frm_client_common().get_Key$type$com$mukund$frm$client$common$ErrorFormatter$_annotation$$none$$(), injector.getFragment_com_mukund_frm_client_common().get_Key$type$com$mukund$frm$client$common$LoadingMessagePopupPanel$_annotation$$none$$(), injector.getFragment_com_mukund_frm_client_domain().get_Key$type$com$mukund$frm$client$domain$PersonClient$_annotation$$none$$());
     memberInject_Key$type$com$mukund$frm$client$view$PersonPanelView$_annotation$$none$$(result);
     
         singleton_Key$type$com$mukund$frm$client$view$PersonPanelView$_annotation$$none$$ = result;
@@ -94,7 +50,7 @@ public class com_mukund_frm_client_DemoGwtWebAppGinjector_DemoGwtWebAppGinjector
     
   }
   
-  public com.mukund.frm.client.view.PersonPanelView com$mukund$frm$client$view$PersonPanelView_com$mukund$frm$client$view$PersonPanelView_methodInjection(com.google.gwt.event.shared.EventBus _0, com.mukund.frm.client.common.ErrorFormatter _1, com.mukund.frm.client.view.LoadingMessagePopupPanel _2, com.mukund.frm.client.domain.PersonClient _3) {
+  public com.mukund.frm.client.view.PersonPanelView com$mukund$frm$client$view$PersonPanelView_com$mukund$frm$client$view$PersonPanelView_methodInjection(com.google.gwt.event.shared.EventBus _0, com.mukund.frm.client.common.ErrorFormatter _1, com.mukund.frm.client.common.LoadingMessagePopupPanel _2, com.mukund.frm.client.domain.PersonClient _3) {
     return new com.mukund.frm.client.view.PersonPanelView(_0, _1, _2, _3);
   }
   
